@@ -1,0 +1,76 @@
+.itam{
+    width: 280px;
+}
+.itam img{
+    /* width: 18rem;
+    height:20rem ; */
+    width: 280px;
+}
+.itam p{
+    margin: 6px 0px;
+}
+.itam-prices{
+    display: flex;
+    gap: 20px;
+}
+.itam-prices-new{
+    color: #374151;
+    font-size: 28px;
+    font-weight: 600;
+}
+.itam-prices-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.itam:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+@media(max-width:1280px){
+    .itam{
+        width: 220px;
+        /* font-size: 24px; */
+    }
+    .itam img{
+        width: 220px;
+    }
+    .itam-prices-old{
+        /* font-size: 24px; */
+    }
+}
+@media(max-width:1024px){
+    .itam{
+        width: 170px;
+        /* font-size: 23px; */
+    }
+    .itam img{
+        width: 170px;
+    }
+    .itam-prices-old{
+        /* font-size: 23px; */
+    }
+}
+@media(max-width:800px){
+    .itam{
+        width: 120px;
+        /* font-size: 23px; */
+    }
+    .itam img{
+        width: 120px;
+    }
+    .itam-prices-old{
+        /* font-size: 16px; */
+    }
+}
+@media(max-width:500px){
+    .itam{
+        width: 160px;
+        /* font-size: 22px; */
+    }
+    .itam img{
+        width: 160px;
+    }
+    
+}
